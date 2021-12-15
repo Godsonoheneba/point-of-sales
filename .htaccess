@@ -1,0 +1,96 @@
+RewriteEngine On
+
+DirectoryIndex login.php
+
+
+#DirectoryIndex maintenance.php
+
+RewriteRule ^login$ login.php 
+RewriteRule ^register.new.staff.css.dart.android.app$ register.php 
+
+RewriteRule ^terminate-account-system$ cores/logout.php
+
+ #dashboard
+RewriteRule ^.home.login-successful$ homepage.php?CHECKER=DASHBOARD
+
+
+ #USERS dashboard
+RewriteRule ^.home.login-successful-ussers$ homepage.php?CHECKER_USERS=DASHBOARDS
+   
+ 
+ 
+#STOCK
+#ADD NEW STOCK
+RewriteRule ^.login-success.add-new-stock-apps-products.java.css.js.app.xml$ homepage.php?CHECKER=ADD_NEW_STOCK
+
+
+#VIEW STOCKS
+RewriteRule ^.login-success.view-all-stocks-apps-products.java.css.js.app.xml.joerock$ homepage.php?CHECKER=VIEW_STOCKS
+
+
+
+
+
+
+#PURCHASE
+#ADD NEW PURCHASE
+RewriteRule ^.login-success.add-new-purchase-apps-products.java.css.js.app.xml$ homepage.php?CHECKER=ADD_NEW_PURCHASE
+
+
+#VIEW PURCHASE
+RewriteRule ^.login-success.view-all-purchase-apps-products..keyboard.java.css.js.app.xml.python$ homepage.php?CHECKER=VIEW_PURCHASE
+
+
+
+
+
+#DEBT
+#PAY DEBT
+RewriteRule ^.login-success.pay-debt-dacosta.java.css.js.app.xml.paydac$ homepage.php?CHECKER=PAY_DEBT
+
+
+#VIEW DEBTORS
+RewriteRule ^.login-success.view.all.debtors.java.css.js.app.xml.paydac$ homepage.php?CHECKER=VIEW_ALL_DEBTORS
+
+
+#VIEW PAID DEBTS
+RewriteRule ^.login-success.view.all.paid-debts.java.css.js.app.xml.paydac$ homepage.php?CHECKER=VIEW_ALL_PAID_DEBTS
+
+
+
+
+
+#PICK UP
+#ADD NEW PICK
+RewriteRule ^.login-success.add-new-pick-apps-products.java.css.js.app.xml.joerock.paydac$ homepage.php?CHECKER=ADD_NEW_PICKUP
+
+
+
+#APICK UP LIST
+RewriteRule ^.login-success.all-pick-up-and-keepings-list-apps-products.java.css.js.app.xml.joerock.paydac$ homepage.php?CHECKER=VIEW_ALL_PICKUPS
+
+
+
+
+
+#ACCOUNT
+#VIEW DAILY SALES
+RewriteRule ^.login-success.all-todays-sales-list-apps-products.java.css.js.app.xml.joerock.paydac$ homepage.php?CHECKER=VIEW_TODAY_SALES
+
+
+
+
+
+#STAFF
+#VIEW STAFF INFO
+RewriteRule ^.login-success.all-staff-info-apps-products.java.css.js.app.xml.joerock.paydac$ homepage.php?CHECKER=VIEW_STAFF_INFO
+
+
+
+#VIEW STAFF
+RewriteRule ^.login-success.all-staffs-apps-products.java.css.js.app.xml.joerock.paydac$ homepage.php?CHECKER=VIEW_ALL_STAFFS
+
+
+
+
+RewriteRule ^.esgapehtllaroftsopxajaehtsitaht..ajaxpost$ AjaxPage/index.php

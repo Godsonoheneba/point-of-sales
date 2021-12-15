@@ -1,0 +1,54 @@
+INSERT INTO `item_sub_category` 
+
+(`id`, `category_id`, `sub_category_id`, `name`, `active`) VALUES 
+
+(NULL, 'BW_0001', 'BW10001', 'Binding Wire', 'yes'), 
+
+(NULL, 'C_0002', 'C10001', 'Ghacem', 'yes'), 
+(NULL, 'C_0002', 'C10002', 'Dangote', 'yes'), 
+(NULL, 'C_0002', 'C10003', 'Dangote', 'yes'), 
+(NULL, 'C_0002', 'C10004', 'Dangote', 'yes'), 
+(NULL, 'C_0002', 'C10005', 'Dangote', 'yes'), 
+
+
+(NULL, 'D_0003', 'D10001', 'Single', 'yes'), 
+(NULL, 'D_0003', 'D10002', 'Double', 'yes'), 
+(NULL, 'D_0003', 'D10003', 'Bathroom', 'yes'), 
+(NULL, 'D_0003', 'D10004', 'One and Half', 'yes'), 
+
+
+(NULL, 'IR_0004', 'IR10001', '5.5 mm', 'yes'), 
+(NULL, 'IR_0004', 'IR10002', '7.5 mm', 'yes'), 
+(NULL, 'IR_0004', 'IR10003', '10 mm', 'yes'), 
+(NULL, 'IR_0004', 'IR10004', '11.5 mm', 'yes'), 
+(NULL, 'IR_0004', 'IR10005', '12 mm', 'yes'), 
+(NULL, 'IR_0004', 'IR10006', '14 mm', 'yes'), 
+(NULL, 'IR_0004', 'IR10007', '16 mm', 'yes'), 
+
+
+
+(NULL, 'N_0005', 'N10001', '1 inc', 'yes'), 
+(NULL, 'N_0005', 'N10002', '1.5 inc', 'yes'), 
+(NULL, 'N_0005', 'N10003', '2 inc', 'yes'), 
+(NULL, 'N_0005', 'N10004', '3 inc', 'yes'), 
+(NULL, 'N_0005', 'N10005', '4 inc', 'yes'), 
+
+
+
+
+
+
+(NULL, 'P_0006', 'P10001', '4 mm', 'yes'), 
+(NULL, 'P_0006', 'P10002', '12 mm', 'yes'), 
+(NULL, 'P_0006', 'P10003', '18 mm', 'yes'), 
+
+
+
+
+(NULL, 'RS_0007', 'RS10001', 'Circular', 'yes'), 
+(NULL, 'RS_0007', 'RS10002', 'Aluzinc (A)', 'yes'), 
+(NULL, 'RS_0007', 'RS10003', 'Aluzinc (B)', 'yes'), 
+(NULL, 'RS_0007', 'RS10004', 'Roofing Caps', 'yes'), 
+(NULL, 'RS_0007', 'RS10005', 'Roofing Nails', 'yes'), 
+(NULL, 'RS_0007', 'RS10006', 'Holders', 'yes'), 
+(NULL, 'RS_0007', 'RS10007', 'Holes', 'yes');
